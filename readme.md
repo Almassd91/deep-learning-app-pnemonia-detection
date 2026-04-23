@@ -55,6 +55,7 @@ The project uses a Convolutional Neural Network (CNN) for image classification. 
 ├── pnemonia_model.keras # Saved trained models
 ├── readme.md
 ├── requirements.txt     # Dependencies
+├── utils.py 
 ```
 
 ---
