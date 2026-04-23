@@ -44,17 +44,17 @@ The project uses a Convolutional Neural Network (CNN) for image classification. 
 ## 📂 Project Structure
 
 ```
-├── data/                # Dataset (train/test images)
-├── models/              # Saved trained models
-├── notebooks/           # Jupyter notebooks (EDA, training)
-├── src/                 # Source code
-│   ├── preprocessing.py
-│   ├── train.py
-│   ├── predict.py
-│   └── utils.py
-├── requirements.txt     # Dependencies
+├── data/                # Dataset (train/test images) - Only on local
+├── static/uploads       # Static Images
+├── templates   
+│   └── index.html
+├── .gitignore
 ├── app.py               # Optional web/app interface
-└── README.md
+├── download.py
+├── main.py
+├── pnemonia_model.keras # Saved trained models
+├── readme.md
+├── requirements.txt     # Dependencies
 ```
 
 ---
@@ -64,8 +64,8 @@ The project uses a Convolutional Neural Network (CNN) for image classification. 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/pneumonia-detection.git
-cd pneumonia-detection
+git clone https://github.com/Almassd91/deep-learning-app-pnemonia-detection
+cd deep-learning-app-pnemonia-detection
 ```
 
 2. Create a virtual environment:
@@ -88,13 +88,13 @@ pip install -r requirements.txt
 ### Train the Model
 
 ```bash
-python src/train.py
+python main.py
 ```
 
 ### Run Predictions
 
 ```bash
-python src/predict.py --image path_to_xray_image
+python app.py
 ```
 
 ### Example Output
@@ -150,16 +150,10 @@ Contributions are welcome! Feel free to fork this repository and submit pull req
 
 ---
 
-## 📜 License
-
-This project is licensed under the MIT License.
-
----
-
 ## 👨‍💻 Author
 
-Your Name
-[GitHub Profile Link]
+Your Name : Almas Ismail Sayyad
+[[GitHub Profile Link](https://github.com/Almassd91)]
 
 ---
 

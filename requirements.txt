@@ -1,0 +1,12 @@
+tensorflow
+numpy
+pandas
+openpyxl
+matplotlib
+fastapi
+uvicorn
+opencv-python
+kaggle==1.5.16
+flask
+pillow
+scikit-learn
